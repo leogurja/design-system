@@ -1,0 +1,4 @@
+{
+  "extends": "@gurgel.io/ts-config/react.json",
+  "include": ["src"]
+}
