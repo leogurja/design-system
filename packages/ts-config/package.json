@@ -1,6 +1,6 @@
 {
-  "name": "@gurgel.io/ts-config",
+  "name": "@gurgelio/ts-config",
   "version": "1.0.0",
-  "license": "MIT",
-  "private": true
+  "private": true,
+  "license": "MIT"
 }

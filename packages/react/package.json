@@ -1,6 +1,10 @@
 {
-  "name": "@gurgel.io/react",
+  "name": "@gurgelio/react",
   "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -8,14 +12,10 @@
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "description": "",
+  "dependencies": {
+    "@gurgelio/tokens": "*"
+  },
   "devDependencies": {
-    "@gurgel.io/ts-config": "*",
-    "@gurgel.io/tokens": "*",
-    "tsup": "^8.3.5",
-    "typescript": "^5.6.3"
+    "@gurgelio/ts-config": "*"
   }
 }

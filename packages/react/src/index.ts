@@ -1,3 +1,3 @@
-import { colors } from '@gurgel.io/tokens'
+import { colors } from "@gurgelio/tokens";
 
-console.log('ok')
+console.log(colors);

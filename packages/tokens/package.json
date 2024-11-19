@@ -1,20 +1,18 @@
 {
-  "name": "@gurgel.io/tokens",
+  "name": "@gurgelio/tokens",
   "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --dts --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "description": "",
   "devDependencies": {
-    "@gurgel.io/ts-config": "*",
-    "tsup": "^8.3.5",
-    "typescript": "^5.6.3"
+    "@gurgelio/ts-config": "*"
   }
 }
