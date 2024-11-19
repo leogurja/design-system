@@ -4,10 +4,10 @@ import { base, config, react } from "@gurgelio/eslint-config";
 export default config(
   {
     extends: [base],
-    files: ["packages/tokens/**/*.ts"],
+    files: ["packages/tokens/src/**/*.ts"],
   },
   {
     extends: [react],
-    files: ["packages/react/**/*.{ts,tsx}"],
+    files: ["packages/react/src/**/*.{ts,tsx}"],
   },
 );
