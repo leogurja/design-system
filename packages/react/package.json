@@ -9,13 +9,19 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+    "build": "tsup src/index.tsx",
+    "dev": "tsup src/index.tsx --watch"
   },
   "dependencies": {
-    "@gurgelio/tokens": "*"
+    "@gurgelio/tokens": "*",
+    "@macaron-css/core": "^1.5.2",
+    "@macaron-css/react": "^1.5.3"
   },
   "devDependencies": {
-    "@gurgelio/ts-config": "*"
+    "@macaron-css/esbuild": "^1.6.1",
+    "@types/react": "^19.0.4",
+    "@types/react-dom": "^19.0.2",
+    "react": "^19.0.0",
+    "tsup": "^8.3.5"
   }
 }
