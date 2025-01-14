@@ -1,6 +1,5 @@
 import { colors, fontSizes, fontWeights, fonts, lineHeights, radii, space } from "@gurgelio/tokens";
 import { createGlobalTheme, createTheme, globalStyle, keyframes, style } from "@macaron-css/core";
-import { styled } from "@macaron-css/react";
 
 globalStyle("*", {
   padding: 0,
@@ -18,4 +17,4 @@ export const theme = createGlobalTheme(":root", {
   space,
 });
 
-export { styled, style, keyframes, createTheme };
+export { style, keyframes, createTheme };

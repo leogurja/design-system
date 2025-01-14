@@ -8,6 +8,8 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "@gurgelio/react": "*",
+    "@gurgelio/tokens": "*",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

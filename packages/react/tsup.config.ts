@@ -7,10 +7,8 @@ export default defineConfig({
   external: ["react"],
   format: "esm",
   outDir: "dist",
-  dts: true,
+  experimentalDts: true,
   sourcemap: true,
-  cjsInterop: true,
-  esbuildOptions: (options) => {
-    options.plugins = macaronEsbuildPlugins();
-  },
+  tsconfig: "./tsconfig.json",
+  esbuildPlugins: [...macaronEsbuildPlugins()],
 });
