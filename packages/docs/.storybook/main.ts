@@ -28,5 +28,9 @@ const config: StorybookConfig = {
   typescript: {
     reactDocgen: "react-docgen-typescript",
   },
+  previewHead: (head) => `
+    ${head}
+    <link href="/fonts/roboto.css" rel="stylesheet" />
+  `,
 };
 export default config;
