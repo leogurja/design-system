@@ -4,8 +4,9 @@
   "packageManager": "npm@11.0.0",
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "format": "prettier --write .",
-    "lint": "eslint --fix ."
+    "build": "turbo run build",
+    "format": "biome format",
+    "lint": "biome lint"
   },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.49.1",

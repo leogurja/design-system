@@ -5,6 +5,7 @@ node_modules
 dist
 storybook-static
 .turbo
+.tsup
 
 # logs
 logs
