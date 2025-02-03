@@ -1,2 +1,21 @@
+# dependencies
 node_modules
+
+# build files
 dist
+storybook-static
+
+# logs
+logs
+*.log
+npm-debug.log*
+*storybook.log
+
+# local files
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
