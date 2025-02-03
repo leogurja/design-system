@@ -4,6 +4,7 @@ node_modules
 # build files
 dist
 storybook-static
+.turbo
 
 # logs
 logs
