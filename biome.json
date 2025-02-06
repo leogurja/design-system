@@ -34,7 +34,6 @@
         "useHookAtTopLevel": "warn"
       },
       "performance": {
-        "noBarrelFile": "info",
         "noReExportAll": "info",
         "useTopLevelRegex": "warn"
       },

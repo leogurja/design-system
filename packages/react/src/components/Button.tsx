@@ -1,6 +1,6 @@
 import { styled } from "@macaron-css/react";
 import type { ComponentProps } from "react";
-import { theme } from "./styles";
+import { theme } from "../styles";
 
 const Button = styled("button", {
   base: {

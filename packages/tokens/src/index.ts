@@ -1,4 +1,3 @@
-// biome-ignore lint/performance/noBarrelFile:
 export { colors } from "./colors";
 export { radii } from "./radii";
 export { space } from "./space";

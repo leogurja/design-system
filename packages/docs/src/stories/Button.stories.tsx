@@ -3,8 +3,8 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { fn } from "@storybook/test";
 import "@gurgelio/react/dist/index.css";
 
-const meta = {
-  title: "Button",
+export default {
+  title: "Form/Button",
   component: Button,
   tags: ["autodocs"],
   argTypes: {
@@ -54,5 +54,3 @@ export const Small: StoryObj<ButtonProps> = {
     size: "small",
   },
 };
-
-export default meta;

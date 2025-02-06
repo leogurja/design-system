@@ -2,7 +2,7 @@ import { macaronEsbuildPlugins } from "@macaron-css/esbuild";
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: ["src/index.tsx"],
+  entry: ["src/index.ts"],
   clean: true,
   external: ["react"],
   format: "esm",
